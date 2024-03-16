@@ -1,5 +1,5 @@
 # 使用pytorch/pytorch:2.1.2-cuda12.1-cudnn8-devel作为基础镜像
-FROM registry-vpc.cn-shanghai.aliyuncs.com/pmg-register/pytorch:2.1.2-cuda12.1-cudnn8-devel
+FROM registry.cn-shanghai.aliyuncs.com/pmg-register/pytorch:2.1.2-cuda12.1-cudnn8-devel
 #FROM pytorch/pytorch:2.1.2-cuda12.1-cudnn8-devel
 
 RUN apt-get update -y --allow-unauthenticated 
